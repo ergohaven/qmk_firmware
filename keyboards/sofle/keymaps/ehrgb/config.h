@@ -6,14 +6,16 @@
 /* Select hand configuration */
 
 //#define MASTER_LEFT
-//#define MASTER_RIGHT
-#define EE_HANDS
+#define MASTER_RIGHT
+//#define EE_HANDS
 //#define USE_SERIAL_PD2
 //#define USE_MATRIX_I2C
 
+#undef ENCODER_RESOLUTION 
+#define ENCODER_RESOLUTION 4
+
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
-#define ENCODER_DIRECTION_FLIP
 
 /* ws2812 RGB LED */
 #define RGB_DI_PIN D3
